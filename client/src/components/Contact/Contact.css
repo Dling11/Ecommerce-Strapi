@@ -1,0 +1,36 @@
+.contact {
+  background-color: #fea128;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+.contact .wrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .wrapper input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+.contact .wrapper button {
+  padding: 10px;
+  color: white;
+  background: rgb(118, 40, 201);
+  border-radius: 0 5px 5px 0;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.contact .wrapper button:hover {
+  background: rgb(94, 31, 161);
+  transition: all 0.4s;
+}
+.contact .wrapper .icons {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=Contact.css.map */
